@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body style="font-family: Inconsolata, serif">
+<div class="quiz-container" id="quiz">
+    <div class="qui-header">
+    <h2 id="question">Question text</h2>
+    <ul>
+        <li>
+            <input type="radio" id="a" name="answer" class="answer">
+            <label id="a_text" for="a">Question</label>
+        </li>
+        <li>
+            <input type="radio" id="b" name="answer" class="answer">
+            <label id="b_text" for="b">Question</label>
+        </li>
+        <li>
+            <input type="radio" id="c" name="answer" class="answer">
+            <label  id="c_text" for="c">Question</label>
+        </li>
+        <li>
+            <input type="radio" id="d" name="answer" class="answer">
+            <label id="d_text" for="d">Question</label>
+        </li>
+    </ul>
+    <button id="submit">submit</button>
+    </div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>

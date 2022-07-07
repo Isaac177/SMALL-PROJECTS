@@ -1,0 +1,30 @@
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.content{
+    text-align: center;
+    border-radius: 10px;
+    margin: 10rem auto 0;
+    width: 450px;
+    padding: 2rem;
+}
+
+#result{
+    padding: 2rem;
+    font-size: xx-large;
+}
+.btn{
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #71f4d2;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #044837;
+    color: #FFFFFF;
+}
+
